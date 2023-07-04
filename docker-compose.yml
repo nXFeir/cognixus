@@ -1,0 +1,27 @@
+version: "3.9"
+   
+services:
+  db:
+    image: postgres
+    ports:
+      - 4010:5432
+    environment:
+      - POSTGRES_NAME=cognixus
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=cognixus3345
+    volumes:
+      - ../pgdata:/var/lib/postgresql/data
+
+  app:
+    build: .
+    environment:
+      DEBUG: True
+      DATABASE_URL: postgres://postgres:cognixus3345@db/cognixus_v1
+    command: python manage.py runserver 0.0.0.0:4011
+    volumes:
+      - .:/app
+    ports:
+      - "4011:4011"
+    depends_on:
+      - db
+    restart: always
