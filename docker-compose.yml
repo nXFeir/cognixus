@@ -4,20 +4,25 @@ services:
   db:
     image: postgres
     ports:
-      - 4010:5432
+      - 3333:5432
     environment:
-      - POSTGRES_NAME=cognixus
+      - POSTGRES_DB=app
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=cognixus3345
+      - POSTGRES_PASSWORD=malarkey
     volumes:
-      - ../pgdata:/var/lib/postgresql/data
+      - db-data:/var/lib/postgresql/data:delegated
 
   app:
     build: .
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:4011"
     environment:
-      DEBUG: True
-      DATABASE_URL: postgres://postgres:cognixus3345@db/cognixus_v1
-    command: python manage.py runserver 0.0.0.0:4011
+    - DATABASE_URL=postgres://postgres:malarkey@db/postgres
+    - DB_HOST=db
+    - DB_NAME=app
+    - DB_USER=postgres
+    - DB_PASSWORD=malarkey
     volumes:
       - .:/app
     ports:
@@ -25,3 +30,6 @@ services:
     depends_on:
       - db
     restart: always
+
+volumes:
+  db-data:

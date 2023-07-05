@@ -1,0 +1,393 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "03cyg84tzo2cu7jiffbk7hwf4fbjbhi7",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAQRf-la0vazvTlTn-ETKclEElJpKyM_y4YFrq8j3Neoqetjf22lmc_ZXEVmK01gbVM3rLEnI2MEEFq553R7JCNEZdfLBE_Sj1Ymuej7oh52Wrrvp9zXrvbnkptE1Oblno_qT_VSOu4ewarVfbogkIdY-SgUqE9I7kCEIzShD4gqJSTtmkgM1jHYNHFHJFBvD96r0Pe:1qGnJv:6hFDcIuSi8pESgmb3cKD5kHehgjNssKOaqj_89_e-vY",
+        "expire_date": "2023-07-18T21:12:23.556Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "c3iozi4glnqo1qurtwwhzyr4l3vu9sre",
+    "fields": {
+        "session_data": ".eJxVzMsOwiAQheF3YS1kygADLt37DM0AU1s1bdLLyvju2qQLXZ__Oy_V8rb27bbI3A5VnRUKQUIvGgKLdsmjzrYDzWQthFBKJK9Ovyxzeci423rn8TaZMo3rPGSzJ-ZYF3OdqjwvR_t30PPSfzUzoEf0NeYqUl1kcS57iA3GkAJn1xBzKQ3bkoUyAERLgB3ZjhKhen8AnzhAcg:1qG3XT:Y1kTr5pPDRVM3ED0JZtqC7uTePIGfm7MwyJEcagYmiU",
+        "expire_date": "2023-07-16T20:19:19.660Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "h9727aeza4d4tilk6161wgwh73qmktoo",
+    "fields": {
+        "session_data": "eyJzb2NpYWxhY2NvdW50X3N0YXRlIjpbeyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn0sIm1wUUZmSlBMSGhFVyJdfQ:1qGnHS:FW5jCUq7WNzFzDbe90Ls9CcSdtLnOFD-lDoT2KQrMbU",
+        "expire_date": "2023-07-18T21:09:50.427Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jorcgyi7vl6ublua97kz59zebjxz43l8",
+    "fields": {
+        "session_data": ".eJxVzMsOwiAQheF3YS1kygADLt37DM0AU1s1bdLLyvju2qQLXZ__Oy_V8rb27bbI3A5VnRUKQUIvGgKLdsmjzrYDzWQthFBKJK9Ovyxzeci423rn8TaZMo3rPGSzJ-ZYF3OdqjwvR_t30PPSfzUzoEf0NeYqUl1kcS57iA3GkAJn1xBzKQ3bkoUyAERLgB3ZjhKhen8AnzhAcg:1qGq2q:cikDG9-qzw76QwxXcRqNMAjlRSzA0VFfpk012XC4DqU",
+        "expire_date": "2023-07-19T00:06:56.731Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "127.0.0.1",
+        "name": "github"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "github",
+        "name": "Github",
+        "client_id": "07da412a9f4b41805614",
+        "secret": "e7f27d29f74d783bc2abf488effddb5cd3f9fb9d",
+        "key": "",
+        "sites": [
+            [
+                "example.com"
+            ]
+        ]
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$2xKw3LH0so7NfBpGBG7WRr$c+AWoK9fECOVFq1yF4J2sqtlKJhUhdLSIEB1tONtrBw=",
+        "last_login": "2023-07-05T00:06:56.700Z",
+        "is_superuser": true,
+        "username": "admin123",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-07-02T20:18:20.128Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "!ngsr3hh0WylT7JvfmYx6tmc5INud3oJUNU871okg",
+        "last_login": "2023-07-04T21:12:23.553Z",
+        "is_superuser": false,
+        "username": "nXFeir",
+        "first_name": "Lee",
+        "last_name": "Mun Hong",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-02T21:36:11.887Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "fields": {
+        "password": "pbkdf2_sha256$320000$OVtJ6cVyS670L9UVhGtKrS$ml8NwLtUgi//foHM5/I2Rsx11Mo3Lppu2eoSggXcAL4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "alex",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-07-02T20:22:04.790Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "todo.todoitem",
+    "pk": "2673bc8c-c40e-4d05-b13e-a71cd54faa4c",
+    "fields": {
+        "user": [
+            "alex"
+        ],
+        "title": "test3",
+        "is_completed": false,
+        "start_time": "2023-07-08T12:00:00Z",
+        "created_at": "2023-07-02T21:49:02.907Z",
+        "updated_at": "2023-07-02T21:49:02.907Z"
+    }
+},
+{
+    "model": "todo.todoitem",
+    "pk": "29600e62-2420-4265-971c-fb5daa791fd5",
+    "fields": {
+        "user": [
+            "nXFeir"
+        ],
+        "title": "test2",
+        "is_completed": false,
+        "start_time": "2023-07-08T12:00:00Z",
+        "created_at": "2023-07-02T21:47:44.248Z",
+        "updated_at": "2023-07-02T21:47:44.248Z"
+    }
+},
+{
+    "model": "todo.todoitem",
+    "pk": "36e6c64d-9acc-474f-b549-11e79a462cdf",
+    "fields": {
+        "user": [
+            "alex"
+        ],
+        "title": "Interview Prep",
+        "is_completed": true,
+        "start_time": "2023-07-02T20:37:30.530Z",
+        "created_at": "2023-07-02T20:34:18.749Z",
+        "updated_at": "2023-07-02T20:35:53.753Z"
+    }
+},
+{
+    "model": "todo.todoitem",
+    "pk": "4a017bfc-e641-47ac-8007-8b67dd403cf7",
+    "fields": {
+        "user": [
+            "nXFeir"
+        ],
+        "title": "test login",
+        "is_completed": true,
+        "start_time": "2023-07-04T07:44:00Z",
+        "created_at": "2023-07-02T21:42:42.931Z",
+        "updated_at": "2023-07-04T22:09:23.061Z"
+    }
+},
+{
+    "model": "todo.todoitem",
+    "pk": "82e36f5e-d05d-487f-8219-05823df99d01",
+    "fields": {
+        "user": [
+            "nXFeir"
+        ],
+        "title": "tt",
+        "is_completed": false,
+        "start_time": "2023-07-08T12:00:00Z",
+        "created_at": "2023-07-02T21:56:58.138Z",
+        "updated_at": "2023-07-02T21:56:58.138Z"
+    }
+},
+{
+    "model": "todo.todoitem",
+    "pk": "cde79a57-ab61-4d44-9319-fa134b113b13",
+    "fields": {
+        "user": [
+            "nXFeir"
+        ],
+        "title": "test34",
+        "is_completed": false,
+        "start_time": "2023-07-08T12:00:00Z",
+        "created_at": "2023-07-02T21:52:17.416Z",
+        "updated_at": "2023-07-02T21:52:17.416Z"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "nXFeir"
+        ],
+        "provider": "github",
+        "uid": "67249816",
+        "last_login": "2023-07-04T21:12:23.545Z",
+        "date_joined": "2023-07-02T21:36:11.921Z",
+        "extra_data": "{\"login\": \"nXFeir\", \"id\": 67249816, \"node_id\": \"MDQ6VXNlcjY3MjQ5ODE2\", \"avatar_url\": \"https://avatars.githubusercontent.com/u/67249816?v=4\", \"gravatar_id\": \"\", \"url\": \"https://api.github.com/users/nXFeir\", \"html_url\": \"https://github.com/nXFeir\", \"followers_url\": \"https://api.github.com/users/nXFeir/followers\", \"following_url\": \"https://api.github.com/users/nXFeir/following{/other_user}\", \"gists_url\": \"https://api.github.com/users/nXFeir/gists{/gist_id}\", \"starred_url\": \"https://api.github.com/users/nXFeir/starred{/owner}{/repo}\", \"subscriptions_url\": \"https://api.github.com/users/nXFeir/subscriptions\", \"organizations_url\": \"https://api.github.com/users/nXFeir/orgs\", \"repos_url\": \"https://api.github.com/users/nXFeir/repos\", \"events_url\": \"https://api.github.com/users/nXFeir/events{/privacy}\", \"received_events_url\": \"https://api.github.com/users/nXFeir/received_events\", \"type\": \"User\", \"site_admin\": false, \"name\": \"Lee Mun Hong\", \"company\": null, \"blog\": \"\", \"location\": null, \"email\": null, \"hireable\": null, \"bio\": null, \"twitter_username\": null, \"public_repos\": 8, \"public_gists\": 0, \"followers\": 1, \"following\": 1, \"created_at\": \"2020-06-22T02:24:47Z\", \"updated_at\": \"2023-07-02T21:35:58Z\"}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-07-02T20:22:04.903Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "users",
+            "user"
+        ],
+        "object_id": "cf86c5bd-2386-4ea3-b6bc-fdc1567d424f",
+        "object_repr": "cf86c5bd-2386-4ea3-b6bc-fdc1567d424f",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-07-02T20:27:21.764Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "todo",
+            "todoitem"
+        ],
+        "object_id": "31e5a1ac-0b4c-4c95-bdd3-52d77b662e5e",
+        "object_repr": "Interview Prep",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-07-02T20:34:18.750Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "todo",
+            "todoitem"
+        ],
+        "object_id": "36e6c64d-9acc-474f-b549-11e79a462cdf",
+        "object_repr": "Interview Prep",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-07-02T21:26:36.723Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "127.0.0.1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-07-02T21:31:20.141Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Github",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-07-05T00:07:15.124Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "127.0.0.1",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-07-05T00:07:32.264Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "127.0.0.2",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-07-05T00:07:34.520Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "127.0.0.2",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-07-05T00:07:40.937Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "2",
+        "object_repr": "127.0.0.1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-07-05T00:07:58.344Z",
+        "user": [
+            "admin123"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "example.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+    }
+}
+]
