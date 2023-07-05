@@ -31,7 +31,7 @@ To test the app's API using the Django REST Framework interface, follow these st
 7. The interface will display the response from the server, including the HTTP status code and response data.
 8. Continue testing the API by exploring different endpoints and actions in the interface.
 
-Please note that some endpoints may require authentication. To authenticate, you need to sign up using Github at the following URL: `http://127.0.0.1:4011/`
+Please note that all endpoints on above require authentication. To authenticate, you need to sign up using Github at the following URL: `http://127.0.0.1:4011/`
 
 
 ## Interface Documentation
@@ -43,7 +43,7 @@ The app exposes the following API endpoints:
 - `GET /api/todo/{pk}/`: Retrieves a specific TODO item.
 - `PUT /api/todo/{pk}/`: Updates a specific TODO item.
 - `DELETE /api/todo/{pk}/`: Deletes a specific TODO item.
-- `PUT /api/todo/{pk}/complete/`: Marks a specific TODO item as completed.
+- `PUT /api/todo/mark_completed/{pk}/`: Marks a specific TODO item as completed.
 
 The API requires authentication for most endpoints, except for the registration and login endpoints. To authenticate, you need to sign up using Github at the following URL: `http://127.0.0.1:4011/`
 
